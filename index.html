@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GlowCo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/svg/heart.svg" /> GlowCo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link about" href="./public/about.html">About GlowCo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link contact" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+          <h1 style="color: pink;" class="display-2 fw-bold">Glowing Beauty For All</h1>
+          <h3 style="color: rgb(170, 101, 161);" class="fw-normal mb-3"> Inclusion of beauty delivered by GlowCo </h3>
+          <div class="d-flex gap-3 justify-content-center lead fw-normal">
+            <a style="color: rgb(220, 36, 180);" class="icon-link" href="#">
+              Services
+              <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+            </a>
+            <a style="color: rgb(220, 36, 180);" class="icon-link" href="#">
+              Products
+              <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 justify-content-center align-items-center ">
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 p-3">
+            <h2 style="color: burlywood;" class="display-5">Makeup for All</h2>
+            <p style="color: chocolate;" class="lead">Expertise from many different backgrounds </p>
+          </div>
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="./assets/make up range.png" alt="Makeup" height="260" class="center"/>
+          </div>
+          
+        </div>
+        <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div class="my-3 py-3">
+            <h2 style="color: darkred;" class="display-5"> Hair for Everyone </h2>
+            <p style="color: firebrick;" class="lead">Thousand of products for different hair type</p>
+          </div>
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="./assets/hairtypes.jpg" alt="Hair Types" height="260" class="center"/>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    
+ <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
